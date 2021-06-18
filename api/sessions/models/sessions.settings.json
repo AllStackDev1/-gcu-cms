@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sessions",
+  "info": {
+    "name": "Sessions",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "events": {
+      "collection": "events"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
